@@ -7,6 +7,9 @@ from six.moves import range
 import sys
 import time
 import math
+import os
+
+os.nice(19)  # train in background
 
 class CharacterTable(object):
     """Given a set of characters:
